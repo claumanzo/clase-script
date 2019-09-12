@@ -46,3 +46,9 @@ then
 	git push -u origin master
 fi
 
+if [ $option = 3 ];
+then
+	echo "adios"
+	break
+fi
+
